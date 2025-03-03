@@ -5,15 +5,6 @@
   ![image](https://github.com/Dikay1/OS-AGDO/blob/main/assets/frame.jpg)
   ###### Fig.1. Illustration of OS-AGDO, the proposed one-shot affordance grounding framework. Our designs are highlighted in four color blocks, which are the visual and text encoders, the CLS-guided transformer decoder, the DefoSEM module, and the Geometric Constraints module. [CLS] denotes the CLS token of the vision encoder.
 
-## TODO
-
-- [ ] Release the code.
-- [x] Release the [arxiv preprint](https://arxiv.org).
-
-## Citation
-If our work is helpful to you, please consider citing us by using the following BibTeX entry:
-
- 
 ## Usage
 ### 1.Requirements
   Code is tested under Pytorch 1.12.1, python 3.7, and CUDA 11.3 
@@ -37,3 +28,13 @@ dataset
 python train.py
 python test.py --model_file <PATH_TO_MODEL>
 ```
+
+## TODO
+
+- [ ] Release the code.
+- [x] Release the [arxiv preprint](https://arxiv.org).
+
+## Citation
+If our work is helpful to you, please consider citing us by using the following BibTeX entry:
+
+ 
