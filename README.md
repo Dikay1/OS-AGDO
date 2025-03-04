@@ -10,7 +10,7 @@
 
 - [ ] Release AGDDO15 dataset.
 - [ ] Release the code.
-- [x] Release the [arxiv preprint](https://arxiv.org).
+- [x] Release the [arxiv preprint](https://arxiv.org/pdf/2503.01092).
 
 ## Citation
 If our work is helpful to you, please consider citing us by using the following BibTeX entry:
