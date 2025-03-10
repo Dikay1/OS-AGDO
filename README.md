@@ -15,6 +15,14 @@
 ## Citation
 If our work is helpful to you, please consider citing us by using the following BibTeX entry:
 
+```
+@article{jia2025one,
+  title={One-Shot Affordance Grounding of Deformable Objects in Egocentric Organizing Scenes},
+  author={Jia, Wanjun and Yang, Fan and Duan, Mengfei and Chen, Xianchi and Wang, Yinxi and Jiang, Yiming and Chen, Wenrui and Yang, Kailun and Li, Zhiyong},
+  journal={arXiv preprint arXiv:2503.01092},
+  year={2025}
+}
+```
 
 ## Usage
 ### 1.Requirements
