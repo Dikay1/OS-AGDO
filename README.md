@@ -9,7 +9,7 @@
 ## TODO
 
 - [ ] Release AGDDO15 dataset.
-- [ ] Release the code.
+- [x] Release the code.
 - [x] Release the [arxiv preprint](https://arxiv.org/pdf/2503.01092).
 
 ## Citation
