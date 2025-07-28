@@ -8,7 +8,7 @@
 
 ## TODO
 
-- [ ] Release AGDDO15 dataset.
+- [x] Release AGDDO15 dataset.
 - [x] Release the code.
 - [x] Release the [arxiv preprint](https://arxiv.org/pdf/2503.01092).
 
@@ -32,7 +32,7 @@ If our work is helpful to you, please consider citing us by using the following 
 pip install -r requirements.txt
 ```
 ### 2.Dataset
-  Download the AGDDO15 dataset from [Baidu Pan](http://).(you can annotate your own one-shot data in the same format).
+  Download the AGDDO15 dataset from [Baidu Pan]( https://pan.baidu.com/s/1KV4PrwBExB8A5MDq9ZxDgw?pwd=S7U2)[S7U2].(you can annotate your own one-shot data in the same format).
   
   Put the data in the `dataset` folder with the following structure:  
 ```
