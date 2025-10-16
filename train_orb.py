@@ -146,7 +146,7 @@ if __name__ == '__main__':
                     if args.viz:
                         if (step + 1) % 40 == 0:
                             img_name = key.split(".")[0]
-                            viz_pred_test(args, image, ego_pred, GT_mask, args.class_names, gt_aff, img_name, total_iter, keypoints)
+                            viz_pred_test(args, image, ego_pred, GT_mask, args.class_names, gt_aff, img_name, total_iter)
 
                 mKLD, mSIM, mNSS = sum(KLs) / len(KLs), sum(SIM) / len(SIM), sum(NSS) / len(NSS)
 
