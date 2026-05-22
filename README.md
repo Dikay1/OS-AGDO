@@ -22,6 +22,15 @@ If our work is helpful to you, please consider citing us by using the following 
   journal={arXiv preprint arXiv:2503.01092},
   year={2025}
 }
+
+@inproceedings{jia2025iros,
+  title={One-shot affordance grounding of deformable objects in egocentric organizing scenes},
+  author={Jia, Wanjun and Yang, Fan and Duan, Mengfei and Chen, Xianchi and Wang, Yinxi and Jiang, Yiming and Chen, Wenrui and Yang, Kailun and Li, Zhiyong},
+  booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={21243--21250},
+  year={2025},
+  organization={IEEE}
+}
 ```
 
 ## Usage
@@ -32,9 +41,18 @@ If our work is helpful to you, please consider citing us by using the following 
 pip install -r requirements.txt
 ```
 ### 2.Dataset
-  Download the AGDDO15 dataset from [Baidu Pan]( https://pan.baidu.com/s/1KV4PrwBExB8A5MDq9ZxDgw?pwd=S7U2)[S7U2].(you can annotate your own one-shot data in the same format).
-  
-  Put the data in the `dataset` folder with the following structure:  
+  Download the AGDDO15 dataset from:
+
+  - **Baidu Pan**  
+  https://pan.baidu.com/s/1KV4PrwBExB8A5MDq9ZxDgw?pwd=S7U2  
+  Extraction code: `S7U2`
+
+  - **Google Drive**  
+  https://drive.google.com/drive/folders/1EPyBA2pHKZ2Cu0xs6wtFRo3S2Nw4VTdx?usp=sharing
+
+  You may also annotate your own one-shot data following the same annotation format.
+
+  Place the dataset under the `dataset/` directory with the following structure: 
 ```
 dataset 
 ├── one-shot-seen
@@ -47,4 +65,12 @@ dataset
 python train.py
 python test.py --model_file <PATH_TO_MODEL>
 ```
+
+## Acknowledgements
+
+This project is partially built upon and inspired by the excellent work:
+
+- [OOAL](https://github.com/Reagan1311/OOAL)
+
+We sincerely thank the authors for making their code publicly available.
  
