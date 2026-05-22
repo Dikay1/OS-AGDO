@@ -5,12 +5,29 @@
   ![image](https://github.com/Dikay1/OS-AGDO/blob/main/assets/frame.jpg)
   ###### Fig.1. Illustration of OS-AGDO, the proposed one-shot affordance grounding framework. Our designs are highlighted in four color blocks, which are the visual and text encoders, the CLS-guided transformer decoder, the DefoSEM module, and the Geometric Constraints module. [CLS] denotes the CLS token of the vision encoder.
 
+## Usage
+### 1.Requirements
+  Code is tested under Pytorch 1.12.1, python 3.7, and CUDA 11.3 
+  
+```
+pip install -r requirements.txt
+```
+### 2.Dataset
+  Download the AGDDO15 dataset from [Google Drive(https://drive.google.com/drive/folders/1EPyBA2pHKZ2Cu0xs6wtFRo3S2Nw4VTdx?usp=sharing) | Baidu Pan(https://pan.baidu.com/s/1KV4PrwBExB8A5MDq9ZxDgw?pwd=S7U2) (S7U2)].  (You may also annotate your own one-shot data following the same annotation format.)
 
-## TODO
+  Place the dataset under the `dataset/` directory with the following structure:
+```
+dataset 
+├── one-shot-seen
+└── Seen
+```
+### 3.Train and Test
+  Run following commands to start training or testing:
 
-- [x] Release AGDDO15 dataset.
-- [x] Release the code.
-- [x] Release the [arxiv preprint](https://arxiv.org/pdf/2503.01092).
+```
+python train.py
+python test.py --model_file <PATH_TO_MODEL>
+```
 
 ## Citation
 If our work is helpful to you, please consider citing us by using the following BibTeX entry:
@@ -33,35 +50,7 @@ If our work is helpful to you, please consider citing us by using the following 
 }
 ```
 
-## Usage
-### 1.Requirements
-  Code is tested under Pytorch 1.12.1, python 3.7, and CUDA 11.3 
-  
-```
-pip install -r requirements.txt
-```
-### 2.Dataset
-  Download the AGDDO15 dataset from [Baidu Pan](https://pan.baidu.com/s/1KV4PrwBExB8A5MDq9ZxDgw?pwd=S7U2) [S7U2] or [Google Drive](https://drive.google.com/drive/folders/1EPyBA2pHKZ2Cu0xs6wtFRo3S2Nw4VTdx?usp=sharing).  (You may also annotate your own one-shot data following the same annotation format.)
-
-  Place the dataset under the `dataset/` directory with the following structure:
-```
-dataset 
-├── one-shot-seen
-└── Seen
-```
-### 3.Train and Test
-  Run following commands to start training or testing:
-
-```
-python train.py
-python test.py --model_file <PATH_TO_MODEL>
-```
-
 ## Acknowledgements
 
-This project is partially built upon and inspired by the excellent work:
-
-- [OOAL](https://github.com/Reagan1311/OOAL)
-
-We sincerely thank the authors for making their code publicly available.
+Some code is borrowed from [OOAL](https://github.com/Reagan1311/OOAL). Thanks for their great work!
  
