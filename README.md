@@ -13,7 +13,7 @@
 pip install -r requirements.txt
 ```
 ### 2.Dataset
-  Download the AGDDO15 dataset from [Google Drive(https://drive.google.com/drive/folders/1EPyBA2pHKZ2Cu0xs6wtFRo3S2Nw4VTdx?usp=sharing) | Baidu Pan(https://pan.baidu.com/s/1KV4PrwBExB8A5MDq9ZxDgw?pwd=S7U2) (S7U2)].  (You may also annotate your own one-shot data following the same annotation format.)
+  Download the AGDDO15 dataset from [Baidu Pan](https://pan.baidu.com/s/1KV4PrwBExB8A5MDq9ZxDgw?pwd=S7U2) [S7U2] or [Google Drive](https://drive.google.com/drive/folders/1EPyBA2pHKZ2Cu0xs6wtFRo3S2Nw4VTdx?usp=sharing). (You may also annotate your own one-shot data following the same annotation format.)
 
   Place the dataset under the `dataset/` directory with the following structure:
 ```
